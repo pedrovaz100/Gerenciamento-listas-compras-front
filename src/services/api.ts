@@ -10,7 +10,9 @@ import type {
   Page
 } from '../types/api';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8081';
+const API_URL =
+  (import.meta as unknown as { env: { VITE_API_URL?: string } }).env.VITE_API_URL ||
+  'http://localhost:8081';
 
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const response = await fetch(`${API_URL}${path}`, {
