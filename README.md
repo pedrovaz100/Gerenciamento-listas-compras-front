@@ -1,45 +1,33 @@
-# Lista de Compras Front-end
+# 🛒 Lista de Compras - Frontend
 
-Front-end em React + TypeScript + Tailwind CSS para consumir a API de Lista de Compras.
+Aplicação web para gerenciar listas de compras consumindo uma API REST.
 
-## Como rodar
+---
 
-1. Abra a API Spring Boot primeiro.
-2. A API deve estar rodando em:
+## 🚀 Tecnologias
 
-```bash
-http://localhost:8081
-```
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
 
-3. No front, instale os pacotes:
+---
 
-```bash
-npm install
-```
+## ▶️ Como rodar
 
-4. Rode o projeto:
+npm install  
+npm run dev  
 
-```bash
-npm run dev
-```
+---
 
-5. Abra no navegador:
+## 🌐 Deploy
 
-```bash
-http://localhost:5173
-```
+https://gerenciamento-listas-compras-front.vercel.app
 
-## Importante
+---
 
-Este projeto usa Tailwind CSS 3.4.17 para evitar o erro do Tailwind 4 com `@apply`, como:
 
-```txt
-Cannot apply unknown utility class rounded-xl
-```
+## 👨‍💻 Autor
 
-## Rotas do front
-
-- `/` Dashboard
-- `/mercados` CRUD de mercados
-- `/listas` CRUD de listas
-- `/itens` CRUD de itens
+- Pedro Vaz - RM 566551  
+- João Victor Luiz Oliveira Resende - RM 565139  
